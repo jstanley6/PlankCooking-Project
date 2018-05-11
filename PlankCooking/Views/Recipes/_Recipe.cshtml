@@ -1,0 +1,18 @@
+<section class="page-section recipe-section">
+    <header class="recipe-header">
+        @ViewData["Name"]
+    </header>
+    <div class="recipe-content">
+      <div class="recipe-description">
+        <p>Click the Recipe PDF button to download the @ViewData["Name"] recipe.</p>
+        <a href=@ViewData["URL"] target="_blank">
+            <img alt="Download" src="~/images/RecipeDownload_Button.png">
+        </a>
+      </div>
+      @if (ViewData["Image"] != null) {
+        <div class="recipe-image-wrap">
+          <img class="recipe-image" alt="Image of the prepared recipe" src=@ViewData["Image"]>
+        </div>
+      }
+    </div>
+</section>

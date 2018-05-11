@@ -1,0 +1,104 @@
+﻿
+<side-menu></side-menu>
+
+   
+    <div class="visible-xs visible-sm clearfix col-md-3 mainClass">
+
+        <div class="btn-group">
+            <button class="btn btn-custom btn-lg dropdown-toggle dropDownStyle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="shopTitleDropStyle">Shop</span> <span class="caret"></span>
+            </button>
+
+            <ul class="dropdown-menu menuStyle">
+                <li class="dropDownLinkStyle"><a routerLink="/Shop/SpiceRubs" target="_self">SPICE RUBS</a></li>
+                <li class="dropDownLinkStyle"><a routerLink="/Shop/CookBooks" target="_self">COOKBOOKS</a></li>
+                <li class="dropDownLinkStyle"><a routerLink="/Shop/BakingPlanks" target="_self">BAKING PLANKS</a></li>
+                <li class="dropDownLinkStyle"><a routerLink="/Shop/BbqPlanks" target="_self">BBQ PLANKS</a></li>
+                <li class="dropDownLinkStyle"><a routerLink="/Shop/NutDriver" target="_self">NUT DRIVER</a></li>
+            </ul>
+        </div>
+
+
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-9">
+
+
+                <div class="hidden-xs containerStyle">
+                    <div
+                    class="backgroundImageStyle"><img alt="BBQ Planks"  src="../../../../../wwwroot/images/Cookbooks_Header.png" class="img-responsive headerStyle"></div>
+                    <div class="backgroundMiddle">
+                        <div class="positionStyle">
+
+                            <div class="hidden-xs">
+
+                                    <div *ngFor="let product of products" class="hidden-xs">
+                                        <div class="dotted_line_top productTitle" >
+                                            <div class="contentTitles dotted_line_bottom dotted_line_right productWidth">{{product.name}}</div>
+                                        </div>
+                                        <div class="product">
+                                            <table cellpadding="0" cellspacing="0" width="100%">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="descriptionStyle" valign="top" align="left">{{product.description}} </td>
+                                                        <td valign="top" align="center">
+                                                            <div>Price: {{product.price.toFixed(2)}} </div>
+                                                            <div class="heightTextBoxStyle">
+                                                                <div class="textBox">Quantity: <input class="textBox_Quantity"></div>
+                                                                <div class="textBox"><input type="image" class="img-responsive" alt="Add To Cart" src="/images/AddToCart_button.png"></div>
+                                                            </div>
+
+                                                            <div class="imgStyle"><img class="cartImagePath" src="{{product.imagePath}}" alt="Product"></div>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                
+
+                            </div>
+                        </div>
+                        <div class="backgroundBottom">&nbsp;</div>
+                    </div>
+
+                </div>
+
+                <div class="visible-xs">
+                   <div class="smallSizeHeader"><img alt="Cookbook Covers" src="../../../../../wwwroot/images/Cookbooks_Header.png" class="img-responsive"></div>
+               <div *ngFor="let product of products">
+                    <div class="dotted_line_top mainClassSmall">
+                        <div class="contentTitles dotted_line_bottom dotted_line_right ">{{product.name}}</div>
+                    </div>
+                   
+                        <table cellpadding="0" cellspacing="0">
+                            <tbody>
+                                <tr>
+                                    <td class="smallDescriptionStyle" valign="top" align="left">{{product.description}}</td>
+                                    <td valign="top" align="center">
+                                        <div>Price: ${{product.price.toFixed(2)}}<br>{{product.priceDescription}}</div>
+                                        <div class="cartTextSmallHeight">
+                                            <div>Quantity: <input class="textBox_Quantity"></div>
+                                            <div><input type="image" class="cartBtnSmallPadding" alt="Add To Cart" src="/images/AddToCart_button.png"></div>
+                                        </div>
+
+                                        <div class="imgStyle"><img class="smallImgStyle" src="{{product.imagePath}}" alt="Product"></div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                 </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+

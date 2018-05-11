@@ -1,0 +1,63 @@
+.dropDownLinkStyle {
+    height:30px;
+}
+
+.divMainLinksDrop {
+    text-align:center; 
+    margin:0 0 30px 0;
+}
+
+.shopTitleDropStyle {
+    font-size:24px;
+}
+
+.dropDownMenuWidth {
+    width:280px;
+}
+.dottedLineClass {
+    margin: 0px 25px 0 25px;
+}
+
+.dottedLineSmallClass {
+    margin:10px 0px 0 0px;
+}
+
+.productsTitleClass {
+    width:250px;
+}
+
+
+
+.divCubes {
+     margin:15px 25px 25px 100px;
+     position:relative;
+}
+.divSmallImageLinks {
+    margin-top:15px; 
+    position:relative;
+
+}
+
+.cubesImages {
+    border:none;
+}
+
+.middleBackground {
+    position:relative; 
+    left:40px; top:0px; 
+    width:625px; 
+    padding-top:30px; 
+    background-image: url(/images/PaperBackground_Middle.png); 
+    background-repeat:repeat-y;
+}
+
+.bottomBackground {
+    width:626px; 
+    height:35px; 
+    background-image: url(/images/PaperBackground_Bottom.png); 
+    background-repeat:no-repeat;
+}
+
+.smallDivMain {
+    display:inline-block;
+}

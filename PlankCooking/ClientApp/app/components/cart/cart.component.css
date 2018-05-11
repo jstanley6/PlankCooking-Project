@@ -1,0 +1,285 @@
+.mainContent {
+    position: relative; top: 60px;
+}
+
+
+.shoppingRow {
+    height:50px; 
+    background-color: #bc9a72; 
+    font-family: Cambrian; 
+    font-size: 16px; 
+    color:#4b290c; 
+    font-weight:bold;
+}
+
+.shoppingRowSmall {
+    height:80px; 
+    background-color: #bc9a72; 
+    font-family: Cambrian; 
+    font-size: 14px; 
+    color:#4b290c; 
+    font-weight:bold;
+}
+
+.shoppingText {
+    text-align:left;
+}
+
+.headerStyle {
+    padding: 15px 0 0 10px;
+}
+
+.headerStyleSmall {
+    padding: 15px 0 0 5px;
+}
+
+.textRight {
+    text-align:right;
+}
+
+.linkStyle {
+    float:right; 
+    padding:12px 5px 0 0;
+}
+
+.smallLinkStyle {
+    float:right; 
+    padding:12px 5px 0 0;
+}
+
+
+
+.linkImgStyle {
+    cursor:pointer; 
+    float:right; 
+    padding:0 10px 0 5px;
+}
+
+.smallImgStyle {
+    cursor:pointer; 
+    float:right; 
+    padding:12px 10px 0 5px;
+}
+
+.tableStyle {
+    background-color: #e8e3c8;
+     margin: 15px 0 0 0; 
+    padding: 10px;
+}
+
+
+
+.titleStyle {
+    width: 500px; 
+    height: 25px; 
+    text-align:left; 
+    padding: 5px; 
+    background-color: #d2be9d; 
+    color: #4b290c; 
+    font-weight: bold; 
+    border-top: 1px dashed #929292; 
+    border-left: 1px dashed #929292;
+    
+}
+
+.smallTitleStyle {
+    width: 500px; 
+    height: 25px; 
+    padding: 5px; 
+    background-color: #d2be9d; 
+    color: #4b290c; 
+    font-weight: bold; 
+    border-top: 1px dashed #929292; 
+    border-left: 1px dashed #929292;
+}
+
+.tableColumnsStyle {
+    width: 100px; 
+    height: 25px; 
+    text-align: center; 
+    background-color: #d2be9d; 
+    color: #4b290c; 
+    font-weight: bold; border-top: 1px dashed #929292; 
+    border-left: 1px dashed #929292;
+    
+}
+
+.productTitleStyle {
+    width: 500px; 
+    text-align:left; 
+    padding: 5px; 
+    color: #4b290c; 
+    border-top: 1px dashed #929292;
+     border-left: 1px dashed #929292;
+}
+
+.smallProductTitle {
+    padding: 5px;
+    color: #4b290c; 
+    border-top: 1px dashed #929292; 
+    border-left: 1px dashed #929292;
+}
+
+.productRows {
+    width: 100px; 
+    text-align: center; 
+    color: #4b290c; 
+    border-top: 1px dashed #929292; 
+    border-left: 1px dashed #929292;
+}
+
+.smallProductRow {
+    text-align: center; 
+    color: #4b290c; 
+    border-top: 1px dashed #929292; 
+    border-left: 1px dashed #929292;
+    
+}
+
+.smallQtyRow {
+    padding: 5px;
+    text-align: center;
+    color: #4b290c; 
+    border-top: 1px dashed #929292; 
+    border-left: 1px dashed #929292;
+}
+
+.quantityStyle {
+    width:35px; 
+    height:25px; 
+    border: 1px solid #929292; 
+    text-align:center;
+    
+                                   
+}
+
+.productTotal {
+    width: 100px; 
+    text-align:center; 
+    color: #4b290c; 
+    border-top: 1px dashed #929292;
+     border-left: 1px dashed #929292; 
+    border-right: 1px dashed #929292;    
+}
+
+.smallProductTotal {
+   text-align: center; 
+   color: #4b290c; 
+   border-top: 1px dashed #929292; 
+   border-left: 1px dashed #929292; 
+   border-right: 1px dashed #929292;
+}
+
+.pricePadding {
+    padding-top: 10px;
+}
+
+.removeDivStyle {
+    padding-top: 10px; 
+    padding-bottom:5px; 
+    text-align: center;
+}
+
+.smallRemoveDivStyle {
+    padding-top: 10px; 
+    padding-bottom:5px;
+}
+
+.removeImg {
+    cursor:pointer;
+}
+
+.tdSpace {
+    width: 100px;
+     padding-top: 5px; 
+     height: 35px; 
+     color: #4b290c; 
+     font-weight: bold; 
+     text-align: center; 
+    border-top: 1px dashed #929292;  
+}
+
+.smallTdSpace {
+    padding-top: 5px; 
+    height: 35px; 
+    color: #4b290c; 
+    font-weight: bold; 
+    text-align: center; 
+    border-top: 1px dashed #929292;
+}
+
+.subTitleStyle {
+    width: 100px;
+     height: 35px; 
+     color: #4b290c; 
+     font-weight: bold; 
+     text-align: right; 
+    border-top: 1px dashed #929292;
+}
+
+.smallSubTitleStyle {
+    height: 35px; 
+    color: #4b290c; 
+    font-weight: bold; 
+    text-align: right; 
+    border-top: 1px dashed #929292;
+}
+
+.priceStyle {
+    width: 100px; 
+    height: 35px; 
+    color: #4b290c; 
+    font-weight: bold; 
+    text-align: center; 
+    border-top: 1px dashed #929292; 
+    border-right: 1px dashed #929292;
+}
+
+.smallPriceStyle {
+    height: 35px; 
+    color: #4b290c; 
+    font-weight: bold; 
+    text-align: center; 
+    border-top: 1px dashed #929292; 
+    border-right: 1px dashed #929292;
+}
+
+.mainLinkStyle {
+    height: 45px; 
+    border: 1px dashed #929292; 
+    padding-right:5px; 
+    text-align:right;
+}
+
+.smallMainStyle {
+    height: 45px; 
+    border: 1px dashed #929292; 
+    text-align: right; 
+    padding-right:5px;
+}
+
+.checkOutLink {
+    float:right; 
+    padding:12px 5px 0 0;
+}
+
+.smallCheckOutLink {
+    float:right; 
+    padding:0 0 0 5px;
+}
+
+.checkOutImg {
+    cursor:pointer; 
+    float:right; 
+    padding:0 0 0 5px;
+}
+
+.continueLinkStyle {
+    float:right; 
+    padding:10px 5px 0 0;
+}
+
+.smallContinueLinkStyle {
+    float:right; 
+    padding: 0 5px 0 0;
+}

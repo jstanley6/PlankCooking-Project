@@ -1,0 +1,164 @@
+﻿
+@{
+    ViewData["Title"] = "Recipes";
+}
+
+<div id="body" class="container site-page">
+
+    <div id="sidebar" class="side-nav side-nav--desktop hidden-xs hidden-sm">
+        <img class="side-nav-header" alt="Page Title" src="~/images/Recipe_MenuHeader.png">
+    </div>
+
+    <div class="side-nav side-nav--mobile visible-xs visible-sm clearfix">
+        <div class="btn-group">
+            <button class="btn btn-custom btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span>Recipes</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="page-wrap">
+        <div class="page-content">
+
+            @Html.Partial("_Recipe", null,
+                new ViewDataDictionary(this.ViewData) {
+                    { "Name", "Alder Plank Roasted Porcini Crusted Salmon with Pesto Rice" },
+                    { "URL", "https://plankcooking.com/app/recipes/pdf/Alder_Plank_Roasted_Porcini_Crusted_Salmon_with_Pesto_Rice.pdf" },
+                })
+
+            @Html.Partial("_Recipe", null,
+                new ViewDataDictionary(this.ViewData) {
+                    { "Name", "Ancho Chili Rubbed Chicken with Corn Relish" },
+                    { "URL", "https://plankcooking.com/app/recipes/pdf/Ancho_Chili_Rubbed_Chicken_with_Corn_Relish.pdf" },
+                })
+
+            @Html.Partial("_Recipe", null,
+                new ViewDataDictionary(this.ViewData) {
+                    { "Name", "Cedar BBQ Plank Roasted Spicy Pecan Halibut" },
+                    { "URL", "https://plankcooking.com/app/recipes/pdf/Cedar_BBQ_Plank_Roasted_Spicy_Pecan_Halibut.pdf" },
+                })
+
+            @Html.Partial("_Recipe", null,
+                new ViewDataDictionary(this.ViewData) {
+                    { "Name", "Cedar Plank Roasted Mushrooms" },
+                    { "URL", "https://plankcooking.com/app/recipes/pdf/Cedar_Plank_Roasted_Mushrooms.pdf" },
+                })
+
+            @Html.Partial("_Recipe", null,
+                new ViewDataDictionary(this.ViewData) {
+                    { "Name", "Garlic Chicken Dijon" },
+                    { "URL", "https://plankcooking.com/app/recipes/pdf/Garlic_Chicken_Dijon.pdf" },
+                })
+
+            @Html.Partial("_Recipe", null,
+                new ViewDataDictionary(this.ViewData) {
+                    { "Name", "Maple Roasted Pork Chops and Pearl Onions" },
+                    { "URL", "https://plankcooking.com/app/recipes/pdf/Maple_Roasted_Pork_Chops_and_Pearl_Onions.pdf" },
+                    { "Image", "/images/MaplePorkChops_RecipeImage.png" },
+                })
+
+            @Html.Partial("_Recipe", null,
+                new ViewDataDictionary(this.ViewData) {
+                    { "Name", "Maple Turkey w/Apple-Pecan Stuffing" },
+                    { "URL", "https://plankcooking.com/app/recipes/pdf/Maple_Turkey_with_Apple_Pecan_Stuffing.pdf" },
+                })
+
+            @Html.Partial("_Recipe", null,
+                new ViewDataDictionary(this.ViewData) {
+                    { "Name", "Plank Roasted Baby Back Ribs" },
+                    { "URL", "https://plankcooking.com/app/recipes/pdf/Plank_Roasted_Baby_Back_Ribs.pdf" },
+                    { "Image", "/images/BBQRibs_RecipeImage.png" },
+                })
+
+            @Html.Partial("_Recipe", null,
+                new ViewDataDictionary(this.ViewData) {
+                    { "Name", "Plank Roasted Dungeness Crab Stuffed Mushrooms" },
+                    { "URL", "https://plankcooking.com/app/recipes/pdf/Plank_Roasted_Dungeness_Crab_Stuffed_Mushrooms.pdf" },
+                })
+            
+            @Html.Partial("_Recipe", null,
+                new ViewDataDictionary(this.ViewData) {
+                    { "Name", "Plank Roasted Garlic-Rosemary Pork Chops" },
+                    { "URL", "https://plankcooking.com/app/recipes/pdf/Plank_Roasted_Garlic_Rosemary_Pork_Chops.pdf" },
+                })
+
+            @Html.Partial("_Recipe", null,
+                new ViewDataDictionary(this.ViewData) {
+                    { "Name", "Plank Roasted Honey Mustard Chicken" },
+                    { "URL", "https://plankcooking.com/app/recipes/pdf/Plank_Roasted_Honey_Mustard_Chicken.pdf" },
+                    { "Image", "/images/MustardChicken_RecipeImage.png" },
+                })
+
+            @Html.Partial("_Recipe", null,
+                new ViewDataDictionary(this.ViewData) {
+                    { "Name", "Plank Roasted Pesto Stuffed Chicken Breast" },
+                    { "URL", "https://plankcooking.com/app/recipes/pdf/Plank_Roasted_Pesto_Stuffed_Chicken_Breast.pdf" },
+                })
+
+            @Html.Partial("_Recipe", null,
+                new ViewDataDictionary(this.ViewData) {
+                    { "Name", "Plank Roasted Pumpkin Soup" },
+                    { "URL", "https://plankcooking.com/app/recipes/pdf/Plank_Roasted_Pumpkin_Soup.pdf" },
+                    { "Image", "/images/PumpkinSoup_RecipeImage.png" },
+                })
+            
+            @Html.Partial("_Recipe", null,
+                new ViewDataDictionary(this.ViewData) {
+                    { "Name", "Plank Roasted Sausage Stuffed Zucchini" },
+                    { "URL", "https://plankcooking.com/app/recipes/pdf/Plank_Roasted_Sausage_Stuffed_Zucchini.pdf" },
+                })
+            
+            @Html.Partial("_Recipe", null,
+                new ViewDataDictionary(this.ViewData) {
+                    { "Name", "Porcini Chicken with Lemon-Thyme Zucchini" },
+                    { "URL", "https://plankcooking.com/app/recipes/pdf/Porcini_Chicken_with_Lemon_Thyme_Zucchini.pdf" },
+                })
+
+            @Html.Partial("_Recipe", null,
+                new ViewDataDictionary(this.ViewData) {
+                    { "Name", "Pork Tenderloin with Herb Stuffing and Onions" },
+                    { "URL", "https://plankcooking.com/app/recipes/pdf/Pork_Tenderloin_with_Herb_Stuffing_and_Onions.pdf" },
+                })
+
+            @Html.Partial("_Recipe", null,
+                new ViewDataDictionary(this.ViewData) {
+                    { "Name", "Salmon Oregano with Lemon Caper Dressing" },
+                    { "URL", "https://plankcooking.com/app/recipes/pdf/Salmon_Oregano_with_Lemon_Caper_Dressing.pdf" },
+                })
+
+            @Html.Partial("_Recipe", null,
+                new ViewDataDictionary(this.ViewData) {
+                    { "Name", "Salmon with Basil-Garlic Rub" },
+                    { "URL", "https://plankcooking.com/app/recipes/pdf/Salmon_with_Basil_Garlic_Rub.pdf" },
+                })
+
+            @Html.Partial("_Recipe", null,
+                new ViewDataDictionary(this.ViewData) {
+                    { "Name", "Sea Bass with Ginger" },
+                    { "URL", "https://plankcooking.com/app/recipes/pdf/Sea_Bass_with_Ginger.pdf" },
+                })
+
+            @Html.Partial("_Recipe", null,
+                new ViewDataDictionary(this.ViewData) {
+                    { "Name", "Teriyaki Chicken Wings - Appetizer" },
+                    { "URL", "https://plankcooking.com/app/recipes/pdf/Teriyaki_Chicken_Wings_Appetizer.pdf" },
+                })
+
+            @Html.Partial("_Recipe", null,
+                new ViewDataDictionary(this.ViewData) {
+                    { "Name", "The Original Cedar Plank Roasted Salmon" },
+                    { "URL", "https://plankcooking.com/app/recipes/pdf/The_Original_Cedar_Plank_Roasted_Salmon.pdf" },
+                    { "Image", "/images/CedarPlankSalmon_RecipeImage.png" },
+                })
+
+            @Html.Partial("_Recipe", null,
+                new ViewDataDictionary(this.ViewData) {
+                    { "Name", "White King Salmon with Roasted Fennel" },
+                    { "URL", "https://plankcooking.com/app/recipes/pdf/White_King_Salmon_with_Roasted_Fennel.pdf" },
+                })
+
+            <div class="page-paper-end"></div>
+        </div>
+    </div>
+</div>
+

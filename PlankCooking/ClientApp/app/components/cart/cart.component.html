@@ -1,0 +1,103 @@
+﻿
+    <div id="content" class="mainContent">
+     
+                <div class="hidden-xs">
+                    <div class="row shoppingRow">
+                        <div class="col-sm-7 col-md-8 col-lg-8 shoppingText">
+                            <div class="headerStyle">SHOPPING CART: Your shopping cart contains 1 items.</div>
+                        </div>
+                        <div class="col-sm-5 col-md-4 col-lg-4 textRight"><a class="linkStyle" routerLink="/Cart/Checkout"><img class="linkImgStyle" alt="Check Out" src="../../../../wwwroot/images/Checkout_button.png"></a> <a class="linkStyle" routerLink="/Shop"><img alt="continue shopping" class="img-responsive" src="../../../../wwwroot/images/ContinueShopping_button.png"></a></div>
+                      
+                    </div>
+                    <div class="tableStyle">
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tbody>
+                                <tr>
+                                    <td class="titleStyle">Shipping to You</td>
+                                    <td class="tableColumnsStyle">Price</td>
+                                    <td class="tableColumnsStyle">Quantity</td>
+                                    <td class="tableColumnsStyle">Total</td>
+                                </tr>
+                               
+                                <tr>
+                                    <td  class="productTitleStyle">SPORT Steak Seasoning Rub</td>
+                                    <td class="productRows">$5.00</td>
+                                    <td class="productRows"><input class="quantityStyle"></td>
+                                    <td class="productTotal">
+                                        <div class="pricePadding">$5.00</div>
+                                        <div class="removeDivStyle"><img class="removeImg" src="../../../../wwwroot/images/Remove_Button.png"></div>
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    
+                                    <td class="tdSpace">&nbsp;</td>
+                                    <td class="subTitleStyle">Subtotal:</td>
+                                    <td class="priceStyle">$5.00</td>
+                                </tr>
+                    
+                                <tr>
+                                    <td colspan="4" class="mainLinkStyle"><a class="checkOutLink" routerLink="/Cart/Checkout"><img alt="Check Out" class="checkOutImg" src="../../../../wwwroot/images/Checkout_button.png"></a><a routerLink="/Shop" class="continueLinkStyle"><img alt="Continue Shopping"  class="img-responsive" src="../../../../wwwroot/images/ContinueShopping_button.png"></a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="visible-xs">
+                    <div class="row shoppingRowSmall">
+                        <div class="col-xs-6 shoppingText">
+                            <div class="headerStyleSmall">SHOPPING CART: Your shopping cart contains 1 items.</div>
+                            
+                        </div>
+                        <div class="col-xs-6 textRight"><a routerLink="/Cart/Checkout"><img alt="Check Out" class="img-responsive smallImgStyle"  src="../../../../wwwroot/images/Checkout_button.png"></a><a routerLink="/Shop" class="smallLinkStyle"><img alt="Continue Shopping" class="img-responsive" src="../../../../wwwroot/images/ContinueShopping_button.png"></a></div>
+                    </div>
+                    <div class="tableStyle">
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tbody>
+                                <tr>
+                                    <td class="smallTitleStyle">Shipping to You</td>
+                                    <td class="tableColumnsStyle">Price</td>
+                                    <td class="tableColumnsStyle">Quantity</td>
+                                    <td class="tableColumnsStyle">
+                                        Total
+                                    </td>
+                                </tr>
+                               
+                                <tr>
+                                    <td class="smallProductTitle">SPORT Steak Seasoning Rub</td>
+                                    <td class="smallProductRow">$5.00</td>
+                                    <td class="smallQtyRow"><input class="quantityStyle"></td>
+                                    <td class="smallProductTotal">
+                                        <div class="pricePadding ">$5.00</div>
+                                        <div class="smallRemoveDivStyle"><img class="removeImg" src="../../../../wwwroot/images/Remove_Button.png"></div>
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    
+                                    <td class="smallTdSpace">&nbsp;</td>
+                                    <td class="smallSubTitleStyle">Subtotal:</td>
+                                    <td class="smallPriceStyle">$5.00</td>
+                                </tr>
+                                <tr>
+
+                                    <td class="smallMainStyle" colspan="4"><a routerLink="/Cart/Checkout" class="smallCheckOutLink"><img alt="Check Out" src="../../../../wwwroot/images/Checkout_button.png"></a> <a routerLink="/Shop" class="smallContinueLinkStyle"><img alt="Continue Shopping" class="img-responsive" src="../../../../wwwroot/images/ContinueShopping_button.png"></a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+          
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+<a  [routerLink]="['/shop']">Go To Shop</a>

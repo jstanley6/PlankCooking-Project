@@ -1,0 +1,87 @@
+﻿
+@{
+    ViewData["Title"] = "Reviews";
+}
+
+<div id="body" class="container site-page">
+
+    <aside id="sidebar" class="side-nav side-nav--desktop hidden-xs hidden-sm">
+        <img class="side-nav-header" alt="Page Title" src="~/images/Reviews_MenuHeader.png">
+        <div class="side-nav-items">
+            <div class="dotted_line"></div>
+            <div>
+                <a href="/Reviews">
+                    <span class="leftMenuTitle">PRESS REVIEWS</span>
+                    <img class="nav-selected-arrow" alt="selected arrow" src="~/images/Menu_arrow.png">
+                </a>
+            </div>
+            <div class="dotted_line"></div>
+            <div>
+                <a href="/Reviews/Testimonials">
+                    <span class="leftMenuTitle">TESTIMONIALS</span>
+                </a>
+            </div>
+            <div class="dotted_line"></div>
+        </div>
+    </aside>
+
+    <aside class="side-nav side-nav--mobile visible-xs visible-sm clearfix">
+        <div class="btn-group">
+            <button class="btn btn-custom btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span>Reviews</span>
+                <br>
+                <span class="text-small">&amp; Testimonials</span>
+                <span class="caret"></span>
+            </button>
+
+            <ul class="side-nav-items dropdown-menu">
+                <li>
+                    <a href="/Reviews">PRESS REVIEWS</a>
+                </li>
+                <li>
+                    <a href="/Reviews/Testimonials">TESTIMONIALS</a>
+                </li>
+            </ul>
+        </div>
+    </aside>
+
+    <div class="page-wrap">
+        <div class="page-content page-content--reviews">
+            <div class="martha-header">
+                <div class="martha-image-wrap">
+                    <img class="martha-image" src="~/images/JHandMartha_photo.png">
+                </div>
+                <div class="martha-text">
+                    <div class="martha-titles">
+                        JOHN HOWIE &amp; PLANK COOKING<br>
+                        ON MARTHA STEWART LIVING
+                    </div>
+                    <div class="dotted_line"></div>
+                    <ul class="martha-quotes">
+                        <li>"Delicious. This is a very unusual and tasty, tasty appetizer!"</li>
+                        <li>"I think we should all try plank cooking."</li>
+                        <li><em>Martha Stewart - Martha Stewart Living Television Show</em></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="page-section review-section">
+                <header id="simply-seafood-header" class="header--deco">
+                    <span class="deco-text center">SIMPLY SEAFOOD MAGAZINE &copy;</span>
+                </header>
+                <div class="review-logo-split">
+                    <div class="review-text">
+                        "Guests will delight in the delectable fragrance of salmon mingled with the aroma
+                        of the heated plank."
+                        <div class="attribution">Simply Seafood Magazine</div>
+                    </div>
+                    <div class="review-logo-wrap">
+                        <img class="review-logo" alt="Simply Seafood logo" src="~/images/SimplySeafood_logo.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+

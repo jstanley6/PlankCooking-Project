@@ -1,0 +1,116 @@
+<side-menu></side-menu>
+    <div class="visible-xs visible-sm clearfix col-md-3 mainClass">
+
+        <div class="btn-group">
+            <button class="btn btn-custom btn-lg dropdown-toggle dropDownStyle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="shopTitleDropStyle">Shop</span> <span class="caret"></span>
+            </button>
+
+            <ul class="dropdown-menu" style="width:280px;">
+                <li class="dropDownLinkStyle"><a routerLink="/Shop/SpiceRubs" target="_self">SPICE RUBS</a></li>
+                <li class="dropDownLinkStyle"><a routerLink="/Shop/CookBooks" target="_self">COOKBOOKS</a></li>
+                <li class="dropDownLinkStyle"><a routerLink="/Shop/BakingPlanks" target="_self">BAKING PLANKS</a></li>
+                <li class="dropDownLinkStyle"><a routerLink="/Shop/BbqPlanks" target="_self">BBQ PLANKS</a></li>
+                <li class="dropDownLinkStyle"><a routerLink="/Shop/NutDriver" target="_self">NUT DRIVER</a></li>
+            </ul>
+        </div>
+
+
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-md-9">
+
+                <div class="hidden-xs containerStyle">
+                    <div class="backgroundImageStyle"><img class="headerStyle" alt="Baking Planks" src="../../../../../wwwroot/images/BakingPlanks_Header.png"></div>
+                    <div class="backgroundMiddle">
+
+                        <div class="positionStyle">
+
+                            <div class="descriptionStyle">Cedar and Alder planks impart a subtle yet full flavored aroma to anything roasted on them. Our planks are made from clear kiln dried Western Red Cedar and Alder. Cedar roasting planks come in two sizes. Alder planks are available in one size only.</div>
+                           <div *ngFor="let product of products">
+                                <div class="dotted_line_top productTitle">
+                                    <div class="contentTitles dotted_line_bottom dotted_line_right productWidth">{{product.name}}</div>
+                                </div>
+                                <div class="productStyle">
+                                    <div>{{product.description}}</div>
+
+
+                                    <div class="tableStyle">
+                                        <table cellpadding="0" cellspacing="0" width="100%">
+                                            <tbody>
+                                                <tr>
+                                                    <td class="productNameStyle" valign="top">
+                                                        {{product.name}}
+                                                        <div class="productImagePath"><img class="imgPath" alt="No Picture of {{product.name}}" src="{{product.imagePath}}"></div>
+                                                    </td>
+                                                    <td valign="top" class="priceStyle">
+                                                        <div>Price: ${{product.price.toFixed(2)}} </div>
+                                                        <div class="heightTextBoxStyle">
+                                                            <div class="textBox">Quantity: <input class="textBox_Quantity"></div>
+                                                            <div class="textBox"><input class="imgAddToCart" type="image" alt="Add To Cart" src="/images/AddToCart_button.png"></div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+                                </div>
+                                </div>
+
+
+                            
+                        </div>
+                        <div class="backgroundBottom">&nbsp;</div>
+                    </div>
+
+                </div>
+
+                <div class="visible-xs mainClassSmall">
+
+                    <div class="smallSizeHeader"><img alt="Baking Planks" src="../../../../../wwwroot/images/BakingPlanks_Header.png" class="img-responsive"></div>
+                    
+                        <div class="smallSizePosition">
+                            <div style="padding-top: 10px; padding-bottom: 5px">Cedar and Alder planks impart a subtle yet full flavored aroma to anything roasted on them. Our planks are made from clear kiln dried Western Red Cedar and Alder. Cedar roasting planks come in two sizes. Alder planks are available in one size only.</div>
+                          <div *ngFor="let product of products">
+                            <div class="dotted_line_top dottedLineClass">
+                                <div class="contentTitles dotted_line_bottom dotted_line_right">{{product.name}}</div>
+                            </div>
+                        
+                                <div>{{product.description}}.</div>
+
+
+                                <div class="tableStyle">
+                                    <table cellpadding="0" cellspacing="0" width="100%">
+                                        <tbody>
+                                            <tr>
+                                                <td class="productNameStyle" valign="top">
+                                                    {{product.name}}
+                                                    <div class="productImagePath"><img alt="Product" style="border:none" src="{{product.imagePath}}"></div>
+                                                </td>
+                                                <td valign="top" class="priceStyle">
+                                                    <div>Price: ${{product.price.toFixed(2)}} </div>
+                                                    <div class="heightTextBoxStyle">
+                                                        <div class="textBox">Quantity: <input class="textBox_Quantity"></div>
+                                                        <div class="textBox"><input class="imgAddToCart" type="image" alt="Add To Cart" src="/images/AddToCart_button.png"></div>
+                                                    </div>
+
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                
+                                </div>
+
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                </div>
+            </div>
+        </div>

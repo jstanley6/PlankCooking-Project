@@ -1,0 +1,354 @@
+.mainContent {
+    position: relative; 
+    top: -10px;
+}
+
+.mainFormDiv {
+    background-color:#e8e3c8; 
+    margin: 5px 0 0 15px; 
+    padding:10px;
+}
+
+.smallMainFormDiv {
+    background-color:#e8e3c8; 
+    margin: 5px 0 0 0px; 
+    padding:10px 0 10px 0;
+}
+
+.smallTopPadding {
+    padding-top:5px;
+}
+
+.titleDiv {
+    height: 40px;
+    text-align:left;
+    padding-top: 9px;
+    padding-left: 15px;
+    background-color: #bc9a72;
+    color:#4b290c;
+    font-family: Cambria;
+    font-size: 16px;
+    font-weight:bold;
+}
+
+.tablePadding {
+    padding-top:5px;
+}
+
+.addressStyle {
+    width:430px; 
+    height:25px; 
+    text-align:left; 
+    padding:5px; 
+    background-color:#d2be9d; 
+    color:#4b290c; 
+    font-weight:bold; 
+    border-top: 1px dashed #929292;
+    border-left: 1px dashed #929292;
+}
+
+.smallAddressStyle {
+    height:25px; 
+    text-align:left; 
+    padding:5px; 
+    background-color:#d2be9d; 
+    color:#4b290c; 
+    font-weight:bold; 
+    border-top: 1px dashed #929292; 
+    border-left: 1px dashed #929292;
+}
+
+.shippingAddressPadding {
+    padding-right:10px;
+}
+
+.outerTd {
+    width:430px; 
+    padding:5px; 
+    color:#4b290c; 
+    border-top: 1px dashed #929292; 
+    border-bottom: 1px dashed #929292; 
+    border-left: 1px dashed #929292;
+}
+
+.smallOuterTd {
+    padding:5px;  
+    text-align:left; 
+    color:#4b290c; 
+    border-top: 1px dashed #929292; 
+    border-bottom: 1px dashed #929292; 
+    border-left: 1px dashed #929292;
+}
+
+.outerShippingTd {
+    width:430px; 
+    padding:5px; 
+    text-align:left; 
+    color:#4b290c; 
+    border: 1px dashed #929292;
+}
+
+.smallOuterShippingTd {
+    padding:5px;  
+    text-align:left; 
+    color:#4b290c; 
+    border: 1px dashed #929292;
+}
+
+.alignRight {
+    text-align:right;
+}
+
+.textBox {
+    width:225px; 
+    margin:5px;
+}
+
+.smallTextBox {
+    width:100%; 
+    margin:5px;
+}
+
+.shipping2YouMain {
+    padding-top:25px;
+}
+
+.shipping2YouTitle {
+    width:500px; 
+    height:25px; 
+    text-align:left; 
+    padding:5px; 
+    background-color:#d2be9d; 
+    color:#4b290c; 
+    font-weight:bold; 
+    border-top: 1px dashed #929292; 
+    border-left: 1px dashed #929292;
+}
+
+.smallShipping2YouTitle {
+    height:25px; 
+    text-align:left; 
+    padding:5px; 
+    background-color:#d2be9d; 
+    color:#4b290c; 
+    font-weight:bold; 
+    border: 1px dashed #929292;
+}
+
+.smallShippingTitle {
+    height:25px; 
+    text-align:left; 
+    padding:5px; 
+    background-color:#d2be9d; 
+    color:#4b290c; 
+    font-weight:bold; 
+    border-top: 1px dashed #929292; 
+    border-left: 1px dashed #929292;
+}
+
+.smallShippingPadding {
+    padding-right:10px;
+}
+
+.tdPriceQuantityTotalHeader {
+    width:100px; 
+    height:25px; 
+    text-align:center; 
+    background-color:#d2be9d; 
+    color:#4b290c; 
+    font-weight:bold; 
+    border-top: 1px dashed #929292; 
+    border-left: 1px dashed #929292;
+}
+
+.smallTdPriceQuantityHeader {
+    height:25px; 
+    text-align:center; 
+    background-color:#d2be9d;
+    color:#4b290c; 
+    font-weight:bold; 
+    border-top: 1px dashed #929292; 
+    border-left: 1px dashed #929292;
+}
+
+.smallTotalHeader {
+    height:25px; 
+    text-align:center; 
+    background-color:#d2be9d; 
+    color:#4b290c; 
+    font-weight:bold; 
+    border-top: 1px dashed #929292; 
+    border-left: 1px dashed #929292; 
+    border-right: 1px dashed #929292;
+}
+
+.productHeader {
+    width: 500px; 
+    text-align:left; 
+    padding: 5px; 
+    color: #4b290c; 
+    border-top: 1px dashed #929292; 
+    border-left: 1px dashed #929292;
+}
+
+.smallProductHeader {
+    padding: 5px; 
+    text-align:left; 
+    color: #4b290c; 
+    border-top: 1px dashed #929292; 
+    border-left: 1px dashed #929292;
+}
+
+.productPriceTotal {
+    width: 100px; 
+    text-align: center; 
+    color: #4b290c; 
+    border-top: 1px dashed #929292; 
+    border-left: 1px dashed #929292;
+}
+
+.smallProductPrice {
+    text-align: center; 
+    color: #4b290c; 
+    border-top: 1px dashed #929292; 
+    border-left: 1px dashed #929292;
+}
+
+.smallProductTotal {
+    text-align: center; 
+    color: #4b290c; 
+    border-top: 1px dashed #929292; 
+    border-left: 1px dashed #929292; 
+    border-right: 1px dashed #929292;
+}
+
+
+.productQuantity {
+    width: 100px; 
+    padding: 5px; 
+    text-align: center; 
+    color: #4b290c; 
+    border-top: 1px dashed #929292; 
+    border-left: 1px dashed #929292;
+}
+
+.smallProductQuantity {
+    padding: 5px; 
+    text-align: center; 
+    color: #4b290c; 
+    border-top: 1px dashed #929292;
+    border-left: 1px dashed #929292;
+}
+
+.subTotalSpace {
+    border-left: 1px dashed #929292; 
+    border-top: 1px dashed #929292; 
+    border-bottom: 1px dashed #929292; 
+    text-align: right;
+}
+
+.smallSubTotalSpace {
+    border-left: 1px dashed #929292; 
+    border-top: 1px dashed #929292; 
+    border-bottom: 1px dashed #929292; 
+    text-align: right;
+}
+
+.subTotalHeader {
+    width: 100px; 
+    height: 35px; 
+    color: #4b290c; 
+    font-weight: bold; 
+    text-align: right; 
+    border-top: 1px dashed #929292; 
+    border-bottom: 1px dashed #929292;
+}
+
+.smallSubToalHeader {
+    height: 35px; 
+    color: #4b290c; 
+    font-weight: bold; 
+    text-align: right; 
+    border-top: 1px dashed #929292; 
+    border-bottom: 1px dashed #929292;
+}
+
+.subTotalPrice {
+    width: 100px; 
+    height: 35px; 
+    color: #4b290c; 
+    font-weight: bold; 
+    text-align: center; 
+    border-right: 1px dashed #929292; 
+    border-top: 1px dashed #929292; 
+    border-bottom: 1px dashed #929292;
+}
+
+.smallSubTotalPrice {  
+    height: 35px; 
+    color: #4b290c; 
+    font-weight: bold; 
+    text-align: center; 
+    border-right: 1px dashed #929292; 
+    border-top: 1px dashed #929292; 
+    border-bottom: 1px dashed #929292;
+}
+
+
+
+.commentsStyle {
+    height:25px; 
+    text-align:left; 
+    padding:5px; 
+    background-color:#d2be9d; 
+    color:#4b290c; 
+    font-weight:bold; 
+    border-top: 1px dashed #929292; 
+    border-left: 1px dashed #929292; 
+    border-right: 1px dashed #929292;
+}
+
+.smallCommentsStyle {
+    height:25px; 
+    text-align:left; 
+    padding:5px; 
+    background-color:#d2be9d; 
+    color:#4b290c; font-weight:bold; 
+    border-top: 1px dashed #929292; 
+    border-left: 1px dashed #929292; 
+    border-right: 1px dashed #929292;
+}
+
+.textAreaStyle {
+    padding:5px; 
+    text-align:left; 
+    color:#4b290c; 
+    border-top: 1px dashed #929292; 
+    border-bottom: 1px dashed #929292; 
+    border-left: 1px dashed #929292; 
+    border-right: 1px dashed #929292;
+}
+
+.smallTextAreaStyle {
+    padding:5px; 
+    text-align:left; 
+    color:#4b290c; 
+    border-top: 1px dashed #929292; 
+    border-bottom: 1px dashed #929292; 
+    border-left: 1px dashed #929292; 
+    border-right: 1px dashed #929292;
+}
+
+.buttonStyle {
+    margin-top:25px; 
+    padding:10px; 
+    border: 1px dashed #929292; 
+    text-align:right;
+}
+
+.smallButtonStyle {
+    margin-top:25px; 
+    padding:10px; 
+    border: 1px dashed #929292; 
+    text-align:right;
+}

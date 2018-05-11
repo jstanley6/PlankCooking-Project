@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] | PlankCooking</title>
+    <base href="~/" />
+
+    <link rel="stylesheet" href="~/dist/vendor.css" asp-append-version="true" />
+</head>
+<body>
+    <nav id="nav" class="affix-top" data-spy="affix" data-offset-top="151">
+        <div class="navbar navbar-inverse navbar-static-top container">
+            <a href="/" class="navbar-brand">
+                <img src="~/images/PC_LogoHeader_Home.png" class="img-responsive">
+            </a>
+            <a href="/Cart" class="navbar-brand">
+                <img alt="Cart Icon" class="img-responsive" src="~/images/Cart_Button_main.png">
+            </a>
+            <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="/About" class="navbar-link">About</a></li>
+                    <li><a href="/Shop" class="navbar-link">Shop</a></li>
+                    <li><a href="/Reviews" class="navbar-link">Reviews</a></li>
+                    <li><a href="/Recipes" class="navbar-link">Recipes</a></li>
+                    <li><a href="/Contact" class="navbar-link">Contact</a></li>
+                </ul>
+            </div> <!-- /.navbar-collapse -->
+        </div> <!-- /.navbar -->
+    </nav>
+
+    <div id="content">
+        <header id="header-images">
+            <a href="/">
+                <img id="logo-main" src="~/images/PC_LogoHeader_Home.png" alt="Plank Cooking by John Howie">
+            </a>
+            <a href="/Cart">
+                <img alt="Cart Icon" id="cart-image" src="~/images/Cart_Button_main.png">
+            </a>
+        </header>
+
+        <main class="container">
+            @RenderBody()
+        </main>
+
+        <footer>
+            <div id="footer-links">
+                <a href="/About">ABOUT</a> |
+                <a href="/Shop">SHOP</a> |
+                <a href="/Reviews">REVIEWS</a> |
+                <a href="/Recipes">RECIPES</a> |
+                <a href="/Contact">CONTACT</a> |
+                <a href="/Policies">POLICIES</a>
+            </div>
+            <div id="copyright">
+                &copy;Copyright 2017 Plankcooking.com. All Rights Reserved
+            </div>
+        </footer>
+    </div> <!-- /#content -->
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>

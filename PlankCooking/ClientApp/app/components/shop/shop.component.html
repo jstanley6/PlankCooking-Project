@@ -1,0 +1,74 @@
+﻿
+    <side-menu></side-menu>
+
+    <div class="visible-xs visible-sm clearfix col-md-3 divMainLinksDrop">
+
+
+        <div class="btn-group">
+            <button class="btn btn-custom btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="width:280px; background-color:#22190f; color:#f8f3dc;">
+                <span class="shopTitleDropStyle">Shop</span> <span class="caret"></span>
+            </button>
+
+
+
+            <ul class="dropdown-menu dropDownMenuWidth">
+                <li class="dropDownLinkStyle"><a routerLink="/Shop/SpiceRubs" target="_self">SPICE RUBS</a></li>
+                <li class="dropDownLinkStyle"><a routerLink="/Shop/CookBooks" target="_self">COOKBOOKS</a></li>
+                <li class="dropDownLinkStyle"><a routerLink="/Shop/BakingPlanks" target="_self">BAKING PLANKS</a></li>
+                <li class="dropDownLinkStyle"><a routerLink="/Shop/BbqPlanks" target="_self">BBQ PLANKS</a></li>
+                <li class="dropDownLinkStyle"><a routerLink="/Shop/NutDriver" target="_self">NUT DRIVER</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="col-md-9">
+
+            <div class="hidden-xs middleBackground">
+                <div class="dotted_line_top dottedLineClass">
+                    <div id="content_title" class="dotted_line_bottom dotted_line_right productsTitleClass">PLANKCOOKING PRODUCTS</div>
+                </div>
+                <div class="divCubes">
+                    <table border="0" cellpadding="25" cellspacing="25" align="center">
+                        <tbody>
+                            
+                       
+                            <tr>
+                                <td><a routerLink="/Shop/SpiceRubs"><img alt="Spice Rubs" class="cubesImages" src="../../../../wwwroot/images/SpiceRubs_cube.png"></a></td>
+                                <td><a routerLink="/Shop/CookBooks"><img alt="Cookbooks" class="cubesImages" src="../../../../wwwroot/images/Cookbooks_cube.png"></a></td>
+                            </tr>
+                            <tr>
+                                <td><a routerLink="/Shop/BakingPlanks"><img alt="Baking Planks" class="cubesImages" src="../../../../wwwroot/images/BakingPlanks_cube.png"></a></td>
+                                <td><a routerLink="/Shop/BbqPlanks"><img alt="BBQ Planks" class="cubesImages" src="../../../../wwwroot/images/BBQ_Planks_cube.png"></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="bottomBackground">&nbsp;</div>
+            </div>
+            <div class="visible-xs">
+                <div class="smallDivMain">
+                    <div class="dotted_line_top dottedLineSmallClass"><div id="content_title" class="dotted_line_bottom dotted_line_right productsTitleClass">PLANKCOOKING PRODUCTS</div></div>
+                    <div class="divSmallImageLinks">
+                        <table border="0" cellpadding="5" cellspacing="5" align="center">
+                            <tbody>
+                                <tr><td><a routerLink="/Shop/SpiceRubs"><img alt="Spice Rubs" class="cubesImages" src="../../../../wwwroot/images/SpiceRubs_cube.png" class="img-responsive"></a></td><td><a routerLink="/Shop/CookBooks"><img alt="Cookbooks" src="../../../../wwwroot/images/Cookbooks_cube.png" class="cubesImages img-responsive"></a></td></tr>
+                                <tr><td><a routerLink="/Shop/BakingPlanks"><img alt="Baking Planks" class="cubesImages" src="../../../../wwwroot/images/BakingPlanks_cube.png" class="img-responsive"></a></td><td><a routerLink="/Shop/BbqPlanks"><img alt="BBQ Planks" src="../../../../wwwroot/images/BBQ_Planks_cube.png" class="cubesImages img-responsive"></a></td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+<a [routerLink]="['/cart']">Go To Cart</a>
+<br />
+<br />
+<a [routerLink]="['/Shop/CookBooks']">Go To Cookbooks</a>
+

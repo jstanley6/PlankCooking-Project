@@ -1,0 +1,92 @@
+@{
+    ViewData["Title"] = "Testimonials";
+}
+
+<div id="body" class="container site-page">
+
+    <div id="sidebar" class="side-nav side-nav--desktop hidden-xs hidden-sm">
+        <img class="side-nav-header" alt="Page Title" src="~/images/Reviews_MenuHeader.png">
+        <div class="side-nav-items">
+            <div class="dotted_line"></div>
+            <div>
+                <a href="/Reviews">
+                    <span class="leftMenuTitle">PRESS REVIEWS</span>
+                </a>
+            </div>
+            <div class="dotted_line"></div>
+            <div>
+                <a href="/Reviews/Testimonials">
+                    <span class="leftMenuTitle">TESTIMONIALS</span>
+                    <img class="nav-selected-arrow" alt="selected arrow" src="~/images/Menu_arrow.png">
+                </a>
+            </div>
+            <div class="dotted_line"></div>
+        </div>
+    </div>
+
+    <div class="side-nav side-nav--mobile visible-xs visible-sm clearfix">
+        <div class="btn-group">
+            <button class="btn btn-custom btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span>Reviews</span>
+                <br>
+                <span class="text-small">&amp; Testimonials</span>
+                <span class="caret"></span>
+            </button>
+
+            <ul class="side-nav-items dropdown-menu">
+                <li>
+                    <a href="/Reviews">PRESS REVIEWS</a>
+                </li>
+                <li>
+                    <a href="/Reviews/Testimonials">TESTIMONIALS</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="page-wrap">
+        <div class="page-content testimonials">
+
+            <section class="testimonial">
+                <p>
+                    “I must tell you I’m very impressed with the prompt delivery of the four planks
+                    I ordered on December 4th and received on December 7th. My husband and I have thoroughly
+                    enjoyed our own plank and have experimented quite a bit. I probably cook on it twice
+                    a week. Thanks for the great service."
+                </p>
+                <div class="testimonial-attribution">
+                    -Becky C
+                </div>
+            </section>
+
+            <div class="dotted_line"></div>
+
+            <section class="testimonial">
+                <p>
+                    "Last night, I used your dry herb rub for salmon to enhance the flavor of shrimp.
+                    My husband and I enjoyed the flavors that both the cedar plank and herb rub gave
+                    the shellfish. But the added benefit was the woodsy aroma throughout the house.
+                    It brought me back to my Vermont days, with a wood burning fire place."
+                </p>
+                <div class="testimonial-attribution">
+                    -A. Cardello
+                </div>
+            </section>
+
+            <div class="dotted_line"></div>
+
+            <section class="testimonial">
+                <p>
+                    "Thank you for a great product. We use it all the time. It might even keep us away
+                    from your restaurant since we can make our own great meals!"
+                </p>
+                <div class="testimonial-attribution">
+                    -Kyle Ohashi
+                </div>
+            </section>
+
+            <div class="page-paper-end"></div>
+        </div>
+    </div>
+
+</div>

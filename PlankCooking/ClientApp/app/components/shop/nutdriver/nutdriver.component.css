@@ -1,0 +1,135 @@
+.dropDownLinkStyle {
+    height:30px;
+}
+
+.mainClass {
+    text-align:center; 
+    margin:0 0 30px 0;
+}
+
+.dropDownStyle {
+    width:280px; 
+    background-color:#22190f; 
+    color:#f8f3dc;
+}
+
+.shopTitleDropStyle {
+    font-size:24px;
+}
+
+.menuStyle {
+    width:280px;
+}
+
+.containerStyle {
+    position:relative; 
+    left:40px;
+}
+
+.backgroundImageStyle {
+    position:relative; 
+    height:364px; 
+    width:650px; 
+    background-image:url(/images/Photo_Background.png);
+}
+
+.headerStyle {
+    position:relative; 
+    top:20px; 
+    left:26px;
+}
+
+.backgroundMiddle {
+    position: relative; 
+    top: -25px; 
+    left: 11px; 
+    width: 626px; 
+    background-image: url(/images/PaperBackground_Middle.png); 
+    background-repeat:repeat-y;
+}
+
+.positionStyle {
+    position:relative; 
+    top:5px; 
+    left:31px
+}
+
+.productTitle {
+    margin: 10px 0 10px 0; 
+    width:570px; 
+    text-align:left;
+}
+
+.productWidth {
+    width:350px;
+}
+
+.product {
+    width:570px;
+}
+
+.descriptionStyle {
+    width:350px; 
+    padding-right:15px;
+}
+
+.heightTextBoxStyle {
+    height:38px;
+}
+
+.textBox {
+    width:100px;
+}
+
+.textBox_Quantity {
+    width:25px; 
+    color:black; 
+    text-align:center;
+}
+
+.cartBtnPadding {
+    padding:5px 5px 0 0
+}
+
+.imgStyle {
+    padding-top:25px; 
+    text-align:center;
+}
+
+.smallImgStyle {
+    border:none
+}
+
+.backgroundBottom {
+    width: 626px; 
+    height: 35px; 
+    background-image: url(/images/PaperBackground_Bottom.png);
+    background-repeat: no-repeat;
+}
+
+.smallSizeHeader {
+    display:inline-block;
+}
+
+.mainClassSmall {
+    margin: 10px 0 10px 0;
+     text-align:left;
+}
+
+.smallDescriptionStyle {
+    padding-right:15px;
+}
+
+.cartTextSmallHeight {
+    height:38px;
+}
+
+.textBox_Quantity {
+    width:25px; 
+    color:black; 
+    text-align:center;
+}
+
+.cartBtnPadding {
+    padding:5px 5px 0 0
+}
